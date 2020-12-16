@@ -14,9 +14,40 @@ const Hero = () => {
     var scene = document.getElementById("scene");
     var parallaxInstance = new Parallax(scene);
   });
+
+  const navigateLeft = (e) => {
+    console.log("left", e);
+  };
+
+  const navigateRight = (e) => {
+    console.log("right", e);
+  };
+
   return (
     <>
       <div className="logo">Logo</div>
+      <div
+        className="circle-container-1"
+        onClick={(e) => {
+          navigateLeft(e);
+        }}
+      >
+        <div className="circle-1">
+          <div className="triangle-1"></div>
+          <div className="arrow-1"></div>
+        </div>
+      </div>
+      <div
+        className="circle-container-2"
+        onClick={(e) => {
+          navigateRight(e);
+        }}
+      >
+        <div className="circle-2">
+          <div className="triangle-2"></div>
+          <div className="arrow-2"></div>
+        </div>
+      </div>
       <div className="hero-container">
         <div className="hero" id="scene">
           <div className="video" data-depth="0.3">

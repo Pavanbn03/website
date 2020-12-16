@@ -30,10 +30,111 @@
 
 .logo {
   position: absolute;
-  z-index: 10;
+  z-index: 5;
   font-size: 3rem;
   left: 20%;
   top: 12%;
   transform: translateY(-50%);
   backface-visibility: hidden;
+}
+
+.circle-container-1 {
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  z-index: 1;
+  margin-top: 20%;
+}
+.circle-1 {
+  margin-top: -1.5rem;
+  margin-left: -2rem;
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  border: 1px solid white;
+  transition: 0.3s transform;
+  backface-visibility: hidden;
+}
+.arrow-1 {
+  background-color: white;
+  width: 6rem;
+  height: 0.2rem;
+  margin-top: 50%;
+  margin-left: 50%;
+  transition: 0.3s transform;
+  backface-visibility: hidden;
+}
+.triangle-1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 1.5rem;
+  top: 2.1rem;
+  border-top: 0.5rem solid transparent;
+  border-right: 1rem solid white;
+  border-bottom: 0.5rem solid transparent;
+  transition: 0.3s transform;
+}
+.circle-1:hover {
+  transform: translateX(0.5rem) scale(1.05);
+}
+.circle-1:hover .arrow-1 {
+  transform: translateX(-1.5rem);
+}
+.circle-1:hover .triangle-1 {
+  transform: translateX(-1.5rem);
+}
+
+.circle-container-2 {
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  z-index: 1;
+  margin-top: 20%;
+  margin-left: 90%;
+}
+.circle-2 {
+  margin-top: -1.5rem;
+  margin-left: -2rem;
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  border: 1px solid white;
+  transition: 0.3s transform;
+  backface-visibility: hidden;
+}
+.arrow-2 {
+  background-color: white;
+  width: 7rem;
+  height: 0.2rem;
+  margin-top: 50%;
+  margin-left: -82%;
+  transition: 0.3s transform;
+  backface-visibility: hidden;
+}
+.triangle-2 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 1.6rem;
+  top: 2rem;
+  border-top: 0.5rem solid transparent;
+  border-left: 1rem solid white;
+  border-bottom: 0.5rem solid transparent;
+  transition: 0.3s transform;
+}
+.circle-2:hover {
+  transform: translateX(-5px) scale(1.05);
+}
+.circle-2:hover .arrow-2 {
+  transform: translateX(1.5rem);
+}
+.circle-2:hover .triangle-2 {
+  transform: translateX(1.5rem);
 }
