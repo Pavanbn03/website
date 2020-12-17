@@ -1,7 +1,12 @@
 import React, { useEffect } from "react";
-import "./emotion.scss";
+import "./AboutUs.scss";
 import Rellax from "rellax";
 import HeroPage from "./heropage";
+import {
+  pageTransition,
+  pageVariants,
+} from "../components/animation/animation";
+import { motion } from "framer-motion";
 
 const LandingPage = () => {
   const scrollTop = () => {
@@ -21,8 +26,14 @@ const LandingPage = () => {
   }, []);
 
   return (
-    <>
-      <HeroPage />
+    <motion.div
+      initial="initial"
+      exit="out"
+      animate="in"
+      variants={pageVariants}
+      transition={pageTransition}
+    >
+      <HeroPage imgurl={`https://unsplash.it/1600/1080`} />
       <div className="main-container">
         <div className="left">
           <h2>Welcome</h2>
@@ -82,7 +93,7 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-    </>
+    </motion.div>
   );
 };
 
