@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Menu.scss";
 
 const Menu = () => {
@@ -25,21 +26,31 @@ const Menu = () => {
       <div className={toggle ? "menu-options active" : "menu-options"}>
         <div className="sideline"></div>
         <nav>
-          <ul>
+          <ul onClick={() => toggleMenu()}>
             <li>
-              <a className="cool-link">About</a>
+              <Link to="aboutus" className="cool-link">
+                About
+              </Link>
             </li>
             <li>
-              <a className="cool-link">Projects</a>
+              <Link to="projects" className="cool-link">
+                Projects
+              </Link>
             </li>
             <li>
-              <a className="cool-link">Team</a>
+              <Link to="team" className="cool-link">
+                Team
+              </Link>
             </li>
             <li>
-              <a className="cool-link">Technologies</a>
+              <Link to="technologies" className="cool-link">
+                Technologies
+              </Link>
             </li>
             <li>
-              <a className="cool-link">Contact Us</a>
+              <Link to="contactus" className="cool-link">
+                Contact Us
+              </Link>
             </li>
           </ul>
         </nav>

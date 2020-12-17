@@ -1,9 +1,10 @@
 import React from "react";
 import "./Hero.scss";
 import { useEffect, useRef } from "react";
+import { Link, withRouter } from "react-router-dom";
 import Parallax from "parallax-js";
 
-const Hero = () => {
+const Hero = ({ history }) => {
   const videoRef = useRef();
 
   const setPlayBack = () => {
@@ -16,16 +17,42 @@ const Hero = () => {
   });
 
   const navigateLeft = (e) => {
-    console.log("left", e);
+    if (history.location.pathname === "/aboutus") {
+      history.push("/");
+    } else if (history.location.pathname === "/projects") {
+      history.push("/aboutus");
+    } else if (history.location.pathname === "/team") {
+      history.push("/projects");
+    } else if (history.location.pathname === "/technologies") {
+      history.push("/team");
+    } else if (history.location.pathname === "/contactus") {
+      history.push("/technologies");
+    } else if (history.location.pathname === "/") {
+      history.push("/contactus");
+    }
   };
 
   const navigateRight = (e) => {
-    console.log("right", e);
+    if (history.location.pathname === "/") {
+      history.push("/aboutus");
+    } else if (history.location.pathname === "/aboutus") {
+      history.push("/projects");
+    } else if (history.location.pathname === "/projects") {
+      history.push("/team");
+    } else if (history.location.pathname === "/team") {
+      history.push("/technologies");
+    } else if (history.location.pathname === "/technologies") {
+      history.push("/contactus");
+    } else if (history.location.pathname === "/contactus") {
+      history.push("/");
+    }
   };
 
   return (
     <>
-      <div className="logo">Logo</div>
+      <div className="logo">
+        <Link to="/">Logo</Link>
+      </div>
       <div
         className="circle-container-1"
         onClick={(e) => {
@@ -51,24 +78,19 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero" id="scene">
           <div className="video" data-depth="0.3">
-            <video
-              ref={videoRef}
-              autoPlay
-              loop
-              muted
-              onCanPlay={() => setPlayBack()}
-              src="src\assets\videos\clouds.mp4"
-            >
-              {/* <source src="src\assets\videos\clouds.webm" type="video/webm" /> */}
-            </video>
+            <img
+              src={`https://images.pexels.com/photos/601798/pexels-photo-601798.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260`}
+              alt="unsplash"
+            />
           </div>
           <div className="title" data-depth="0.2">
-            <h3>emotion</h3>
+            <h3>interfaceone.io</h3>
           </div>
         </div>
       </div>
+      <main></main>
     </>
   );
 };
 
-export default Hero;
+export default withRouter(Hero);
