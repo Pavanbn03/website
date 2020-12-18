@@ -10,6 +10,7 @@
     "locomotive-scroll": "^4.0.6",
     "node-sass": "^4.14.1",
     "parallax-js": "^3.1.0",
+    "popmotion": "^9.0.1",
     "react": "^17.0.1",
     "react-cursor-follow": "^2.0.0",
     "react-dom": "^17.0.1",

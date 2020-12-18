@@ -24,7 +24,7 @@ const Team = () => {
     <>
       <HeroPage
         pageName="Team"
-        url="https://vod-progressive.akamaized.net/exp=1608262941~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4417%2F17%2F447087782%2F1961778071.mp4~hmac=74bf07ddd509e676d8f62a08fcb5ee4dc554e9abcdaa14366b20d18f115f5d91/vimeo-prod-skyfire-std-us/01/4417/17/447087782/1961778071.mp4?filename=Bird+-+46026.mp4"
+        url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/Bird.mp4?alt=media&token=32a65573-fae1-4813-8d6f-85614701ada4`}
       />
       <div className="main-container">
         <div className="left">

@@ -24,7 +24,7 @@ const LandingPage = () => {
     <>
       <HeroPage
         pageName="Welcome"
-        url="https://vod-progressive.akamaized.net/exp=1608274260~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F1502%2F14%2F357512237%2F1459834022.mp4~hmac=55383cf963ca12f0836ce451d40b2f62d5e37b3a512aa036695c20fdb70ca6df/vimeo-prod-skyfire-std-us/01/1502/14/357512237/1459834022.mp4?filename=World+-+26070.mp4"
+        url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/Earth.mp4?alt=media&token=20b6bc1d-ec1a-4c53-807c-8a11f55421df`}
       />
       <div className="main-container">
         <div className="left">

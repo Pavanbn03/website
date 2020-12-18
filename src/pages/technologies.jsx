@@ -24,7 +24,7 @@ const Technologies = () => {
     <>
       <HeroPage
         pageName="Technologies"
-        url="https://vod-progressive.akamaized.net/exp=1608273876~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F3700%2F14%2F368501609%2F1525097604.mp4~hmac=96f770566b8694d86046358f91b5f9d1e5f016f5c7d441b20d05ee2158dbd8a0/vimeo-prod-skyfire-std-us/01/3700/14/368501609/1525097604.mp4?filename=Rain+-+28236.mp4"
+        url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/rain.mp4?alt=media&token=b362a64e-39bd-4f11-98e3-54d41446cf09`}
       />
       <div className="main-container">
         <div className="left">

@@ -10,7 +10,7 @@ const ContactUs = () => {
     <>
       <HeroPage
         pageName="Contact Us"
-        url="https://vod-progressive.akamaized.net/exp=1608273942~acl=%2A%2F470528582.mp4%2A~hmac=6bf7349a996ab901c872449279f13443724aff1761e278808ae3c0659e0edbfe/vimeo-prod-skyfire-std-us/01/589/6/152947486/470528582.mp4?filename=Fireplace+-+1971.mp4"
+        url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/fire.mp4?alt=media&token=c6b1c7ed-25d0-4b9f-8259-abd02a307b7d`}
       />
       <div className="contact">
         <p>Contact Us</p>

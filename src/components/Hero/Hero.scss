@@ -157,6 +157,20 @@
   transform: translateX(1.5rem);
 }
 
+.pageName-container {
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  z-index: 5;
+  margin-top: 7.5rem;
+  margin-left: 100rem;
+
+  .pageName {
+    text-align: center;
+    letter-spacing: 0.2rem;
+  }
+}
+
 .scrollDown {
   z-index: 5;
   background-color: transparent;

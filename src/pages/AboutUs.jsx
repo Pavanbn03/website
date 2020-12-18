@@ -23,7 +23,7 @@ const AboutUs = () => {
   return (
     <>
       <HeroPage
-        url="https://vod-progressive.akamaized.net/exp=1608272829~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F888%2F18%2F454440518%2F2002743477.mp4~hmac=a924ec6afc5682af57343bb8d44819c33b5bcf9846bb4746379815ecb873319d/vimeo-prod-skyfire-std-us/01/888/18/454440518/2002743477.mp4?filename=Cateye+-+48441.mp4"
+        url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/eye.mp4?alt=media&token=3b72d16c-95ad-42dd-83bb-66e20865a748`}
         pageName="About Us"
       />
       <div className="main-container">
