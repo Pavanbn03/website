@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Pavanbn03/websitestatic/css/main.e0a33ebc.chunk.css",
+    "main.js": "/Pavanbn03/websitestatic/js/main.e15ba930.chunk.js",
+    "main.js.map": "/Pavanbn03/websitestatic/js/main.e15ba930.chunk.js.map",
+    "runtime-main.js": "/Pavanbn03/websitestatic/js/runtime-main.a19e8779.js",
+    "runtime-main.js.map": "/Pavanbn03/websitestatic/js/runtime-main.a19e8779.js.map",
+    "static/js/2.fc903485.chunk.js": "/Pavanbn03/websitestatic/js/2.fc903485.chunk.js",
+    "static/js/2.fc903485.chunk.js.map": "/Pavanbn03/websitestatic/js/2.fc903485.chunk.js.map",
+    "index.html": "/Pavanbn03/websiteindex.html",
+    "static/css/main.e0a33ebc.chunk.css.map": "/Pavanbn03/websitestatic/css/main.e0a33ebc.chunk.css.map",
+    "static/js/2.fc903485.chunk.js.LICENSE.txt": "/Pavanbn03/websitestatic/js/2.fc903485.chunk.js.LICENSE.txt",
+    "static/media/ContactUs.scss": "/Pavanbn03/websitestatic/media/contact_bg.a695a97e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a19e8779.js",
+    "static/js/2.fc903485.chunk.js",
+    "static/css/main.e0a33ebc.chunk.css",
+    "static/js/main.e15ba930.chunk.js"
+  ]
+}

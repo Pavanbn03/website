@@ -1,5 +1,5 @@
 {
-  "name": "website",
+  "name": "interfaceone.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,20 +7,13 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "framer-motion": "^3.0.0",
-    "locomotive-scroll": "^4.0.6",
     "node-sass": "^4.14.1",
     "parallax-js": "^3.1.0",
-    "popmotion": "^9.0.1",
     "react": "^17.0.1",
-    "react-cursor-follow": "^2.0.0",
     "react-dom": "^17.0.1",
-    "react-player": "^2.7.2",
-    "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-script-tag": "^1.1.2",
     "react-scripts": "4.0.1",
     "rellax": "^1.12.1",
-    "swiper": "^6.4.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -46,5 +39,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavanbn03/website.git"
+  },
+  "author": "interfaceone.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pavanbn03/website/issues"
+  },
+  "homepage": "https://github.com/Pavanbn03/website#readme"
 }
