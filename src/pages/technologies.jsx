@@ -2,11 +2,6 @@ import React, { useEffect } from "react";
 import "./AboutUs.scss";
 import Rellax from "rellax";
 import HeroPage from "./heropage";
-import {
-  pageTransition,
-  pageVariants,
-} from "../components/animation/animation";
-import { motion } from "framer-motion";
 
 const Technologies = () => {
   const scrollTop = () => {
@@ -26,14 +21,11 @@ const Technologies = () => {
   }, []);
 
   return (
-    <motion.div
-      initial="initial"
-      exit="out"
-      animate="in"
-      variants={pageVariants}
-      transition={pageTransition}
-    >
-      <HeroPage imgurl={`https://unsplash.it/1600/1080`} />
+    <>
+      <HeroPage
+        pageName="Technologies"
+        url="https://vod-progressive.akamaized.net/exp=1608273876~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F3700%2F14%2F368501609%2F1525097604.mp4~hmac=96f770566b8694d86046358f91b5f9d1e5f016f5c7d441b20d05ee2158dbd8a0/vimeo-prod-skyfire-std-us/01/3700/14/368501609/1525097604.mp4?filename=Rain+-+28236.mp4"
+      />
       <div className="main-container">
         <div className="left">
           <h2>Technologies</h2>
@@ -93,7 +85,7 @@ const Technologies = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </>
   );
 };
 

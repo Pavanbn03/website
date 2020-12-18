@@ -2,11 +2,6 @@ import React, { useEffect } from "react";
 import "./AboutUs.scss";
 import Rellax from "rellax";
 import HeroPage from "./heropage";
-import { motion } from "framer-motion";
-import {
-  pageTransition,
-  pageVariants,
-} from "../components/animation/animation";
 
 const Projects = () => {
   const scrollTop = () => {
@@ -26,14 +21,11 @@ const Projects = () => {
   }, []);
 
   return (
-    <motion.div
-      initial="initial"
-      exit="out"
-      animate="in"
-      variants={pageVariants}
-      transition={pageTransition}
-    >
-      <HeroPage imgurl={`https://unsplash.it/1600/1080`} />
+    <>
+      <HeroPage
+        pageName="Products"
+        url="https://vod-progressive.akamaized.net/exp=1608273013~acl=%2A%2F1105761827.mp4%2A~hmac=bbfb3d38aaa19027ea5153b0d0120f31a06f1e9ff71a9ce09da6354c874b6a76/vimeo-prod-skyfire-std-us/01/3317/11/291585321/1105761827.mp4?filename=Aerial+-+18390.mp4"
+      />
       <div className="main-container">
         <div className="left">
           <h2>Projects</h2>
@@ -93,7 +85,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </>
   );
 };
 
