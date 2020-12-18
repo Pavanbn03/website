@@ -4,7 +4,7 @@
   grid-template-columns: 3fr 1fr;
   z-index: 2;
   position: absolute;
-  overflow: visible;
+  overflow-x: hidden;
 
   & .left {
     background-color: white;
@@ -72,6 +72,164 @@
         font-size: 2rem;
         text-align: center;
         cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-container {
+    & .left {
+      h2 {
+        font-size: 4rem;
+        margin-top: 4rem;
+      }
+      & .paragraph {
+        grid-template-columns: 50% 50%;
+
+        margin-top: -6rem;
+
+        & .para-left {
+          padding: 0 2.5rem;
+          h4 {
+            font-size: 1.5rem;
+          }
+          p {
+            margin-top: 0.7rem;
+            font-size: 1.3rem;
+          }
+
+          & .quote {
+            margin-top: 3rem;
+
+            p {
+              font-size: 1.7rem;
+            }
+          }
+        }
+        & .para-right {
+          padding-right: 3rem;
+          h4 {
+            font-size: 1.8rem;
+          }
+          p {
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            word-spacing: 0.2rem;
+          }
+        }
+      }
+    }
+    & .right {
+      & .close {
+        p {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 425px) {
+  .main-container {
+    & .left {
+      h2 {
+        font-size: 3.5rem;
+        margin-top: 3rem;
+      }
+      & .paragraph {
+        grid-template-columns: 50% 50%;
+        gap: 0.5rem;
+        margin-top: -6rem;
+
+        & .para-left {
+          padding: 0 2rem;
+          h4 {
+            font-size: 1.8rem;
+          }
+          p {
+            margin-top: 0.7rem;
+            font-size: 1.5rem;
+          }
+
+          & .quote {
+            margin-top: 3rem;
+
+            p {
+              font-size: 1.7rem;
+            }
+          }
+        }
+        & .para-right {
+          padding-right: 3rem;
+          h4 {
+            font-size: 2rem;
+          }
+          p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            word-spacing: 0.3rem;
+          }
+        }
+      }
+    }
+    & .right {
+      & .close {
+        p {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .main-container {
+    & .left {
+      h2 {
+        font-size: 2.2rem;
+        margin-top: 3rem;
+      }
+      & .paragraph {
+        grid-template-columns: 50% 50%;
+        gap: 0.1rem;
+        margin-top: -6rem;
+
+        & .para-left {
+          padding: 0 1.2rem;
+          h4 {
+            font-size: 1.4rem;
+          }
+          p {
+            margin-top: 0.7rem;
+            font-size: 1.3rem;
+          }
+
+          & .quote {
+            margin-top: 3rem;
+
+            p {
+              font-size: 1.5rem;
+            }
+          }
+        }
+        & .para-right {
+          padding-right: 2rem;
+          h4 {
+            font-size: 1.8rem;
+          }
+          p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            word-spacing: 0.3rem;
+          }
+        }
+      }
+    }
+    & .right {
+      & .close {
+        p {
+          font-size: 1.5rem;
+        }
       }
     }
   }

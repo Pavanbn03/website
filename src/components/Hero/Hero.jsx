@@ -1,10 +1,13 @@
-import React from "react";
 import "./Hero.scss";
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link, withRouter } from "react-router-dom";
 import Parallax from "parallax-js";
 import { motion } from "framer-motion";
-import { pageTransition, pageVariants } from "../animation/animation";
+import {
+  pageTransition,
+  pageVariantsLeftToRight,
+  pageVariantsRightToLeft,
+} from "../animation/animation";
 
 const Hero = ({ history, url, pageName }) => {
   const videoRef = useRef();
@@ -16,11 +19,11 @@ const Hero = ({ history, url, pageName }) => {
   useEffect(() => {
     var scene = document.getElementById("scene");
     var parallaxInstance = new Parallax(scene);
-    console.log("url", url);
-    console.log("name", pageName);
   });
 
   const navigateLeft = (e) => {
+    localStorage.setItem("direction", JSON.stringify(true));
+
     if (history.location.pathname === "/aboutus") {
       history.push("/");
     } else if (history.location.pathname === "/projects") {
@@ -37,6 +40,8 @@ const Hero = ({ history, url, pageName }) => {
   };
 
   const navigateRight = (e) => {
+    localStorage.setItem("direction", JSON.stringify(false));
+
     if (history.location.pathname === "/") {
       history.push("/aboutus");
     } else if (history.location.pathname === "/aboutus") {
@@ -57,7 +62,11 @@ const Hero = ({ history, url, pageName }) => {
       initial="initial"
       exit="out"
       animate="in"
-      variants={pageVariants}
+      variants={
+        JSON.parse(localStorage.getItem("direction"))
+          ? pageVariantsRightToLeft
+          : pageVariantsLeftToRight
+      }
       transition={pageTransition}
     >
       <div className="logo">
@@ -100,19 +109,19 @@ const Hero = ({ history, url, pageName }) => {
               onCanPlay={setPlayBack}
               src={url}
               autoPlay
-              muted
               loop
+              muted
             ></video>
           </div>
           <div className="title" data-depth="0.2">
             <h3>interfaceone.io</h3>
           </div>
           <div className="scrollDown">
-            <div class="container">
-              <div class="chevron"></div>
-              <div class="chevron"></div>
-              <div class="chevron"></div>
-              <span class="text">Scroll down</span>
+            <div className="container">
+              <div className="chevron"></div>
+              <div className="chevron"></div>
+              <div className="chevron"></div>
+              <span className="text">Scroll down</span>
             </div>
           </div>
         </div>
