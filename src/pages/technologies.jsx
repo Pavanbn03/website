@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./AboutUs.scss";
+
 import Rellax from "rellax";
 import HeroPage from "./heropage";
 

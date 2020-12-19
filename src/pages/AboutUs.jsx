@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./AboutUs.scss";
+
 import Rellax from "rellax";
 import HeroPage from "./heropage";
 
@@ -79,6 +79,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
+
         <div className="right">
           <div className="close" onClick={scrollTop}>
             <p>close</p>

@@ -1,5 +1,4 @@
-import "./Hero.scss";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link, withRouter } from "react-router-dom";
 import Parallax from "parallax-js";
 import { motion } from "framer-motion";
@@ -18,7 +17,7 @@ const Hero = ({ history, url, pageName }) => {
 
   useEffect(() => {
     var scene = document.getElementById("scene");
-    var parallaxInstance = new Parallax(scene);
+    new Parallax(scene);
   });
 
   const navigateLeft = (e) => {

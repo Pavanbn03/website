@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import HeroPage from "./heropage";
-import "./ContactUs.scss";
+
 import Rellax from "rellax";
 
 const ContactUs = () => {

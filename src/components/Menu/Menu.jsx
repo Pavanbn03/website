@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Menu.scss";
 
 const Menu = () => {
   let [toggle, setToggle] = useState(false);
 
   const toggleMenu = () => {
     setToggle(!toggle);
-    console.log(toggle);
   };
 
   return (

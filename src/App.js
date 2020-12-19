@@ -1,4 +1,4 @@
-import "./App.css";
+import "./css/main.css";
 import { Switch, Route, useLocation } from "react-router-dom";
 import AboutUs from "./pages/AboutUs";
 import Projects from "./pages/products";

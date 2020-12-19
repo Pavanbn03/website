@@ -4,7 +4,6 @@
   grid-template-columns: 3fr 1fr;
   z-index: 2;
   position: absolute;
-  overflow-x: hidden;
 
   & .left {
     background-color: white;
@@ -63,10 +62,10 @@
   }
   & .right {
     background-color: #9f2013;
+
     & .close {
       position: sticky;
       top: 100vh;
-
       p {
         font-size: 2rem;
         text-align: center;
