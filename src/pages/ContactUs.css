@@ -1,0 +1,109 @@
+.contact {
+  width: 100%;
+  background: url("https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/contact_bg.jpg?alt=media&token=578f9541-1235-42a0-bf5f-a45bd07eb149");
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 20rem;
+}
+
+.contact .title {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  padding: 10rem 0rem;
+}
+
+.contact .form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .form-container .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -5rem;
+}
+
+.contact .form-container .form .input {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: darkred;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0.8rem;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.contact .form-container .form .button {
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  border: none;
+  font-size: 1.5rem;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  outline: none;
+}
+
+.contact .form-container .form .button:hover {
+  background-color: darkred;
+  color: white;
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+/*# sourceMappingURL=ContactUs.css.map */

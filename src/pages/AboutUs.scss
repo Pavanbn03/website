@@ -65,7 +65,7 @@
 
     & .close {
       position: sticky;
-      top: 100vh;
+      top: 80vh;
       p {
         font-size: 2rem;
         text-align: center;
@@ -85,10 +85,8 @@
       & .paragraph {
         grid-template-columns: 50% 50%;
 
-        margin-top: -6rem;
-
         & .para-left {
-          padding: 0 2.5rem;
+          padding: 0 4rem;
           h4 {
             font-size: 1.5rem;
           }
@@ -107,6 +105,7 @@
         }
         & .para-right {
           padding-right: 3rem;
+
           h4 {
             font-size: 1.8rem;
           }
@@ -135,8 +134,9 @@
         margin-top: 3rem;
       }
       & .paragraph {
-        grid-template-columns: 50% 50%;
-        gap: 0.5rem;
+        // grid-template-columns: 50% 50%;
+        // gap: 0.5rem;
+        display: block;
         margin-top: -6rem;
 
         & .para-left {
@@ -158,7 +158,8 @@
           }
         }
         & .para-right {
-          padding-right: 3rem;
+          padding: 1.5rem;
+          margin-top: -7rem;
           h4 {
             font-size: 2rem;
           }
@@ -188,8 +189,9 @@
         margin-top: 3rem;
       }
       & .paragraph {
-        grid-template-columns: 50% 50%;
-        gap: 0.1rem;
+        // grid-template-columns: 50% 50%;
+        // gap: 0.1rem;
+        display: block;
         margin-top: -6rem;
 
         & .para-left {
@@ -211,7 +213,8 @@
           }
         }
         & .para-right {
-          padding-right: 2rem;
+          padding: 1.5rem;
+          margin-top: -7rem;
           h4 {
             font-size: 1.8rem;
           }

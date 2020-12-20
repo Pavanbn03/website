@@ -1044,7 +1044,7 @@
 .main-container .right .close {
   position: -webkit-sticky;
   position: sticky;
-  top: 100vh;
+  top: 80vh;
 }
 
 .main-container .right .close p {
@@ -1061,10 +1061,9 @@
   .main-container .left .paragraph {
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    margin-top: -6rem;
   }
   .main-container .left .paragraph .para-left {
-    padding: 0 2.5rem;
+    padding: 0 4rem;
   }
   .main-container .left .paragraph .para-left h4 {
     font-size: 1.5rem;
@@ -1101,9 +1100,7 @@
     margin-top: 3rem;
   }
   .main-container .left .paragraph {
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
-    gap: 0.5rem;
+    display: block;
     margin-top: -6rem;
   }
   .main-container .left .paragraph .para-left {
@@ -1123,7 +1120,8 @@
     font-size: 1.7rem;
   }
   .main-container .left .paragraph .para-right {
-    padding-right: 3rem;
+    padding: 1.5rem;
+    margin-top: -7rem;
   }
   .main-container .left .paragraph .para-right h4 {
     font-size: 2rem;
@@ -1144,9 +1142,7 @@
     margin-top: 3rem;
   }
   .main-container .left .paragraph {
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
-    gap: 0.1rem;
+    display: block;
     margin-top: -6rem;
   }
   .main-container .left .paragraph .para-left {
@@ -1166,7 +1162,8 @@
     font-size: 1.5rem;
   }
   .main-container .left .paragraph .para-right {
-    padding-right: 2rem;
+    padding: 1.5rem;
+    margin-top: -7rem;
   }
   .main-container .left .paragraph .para-right h4 {
     font-size: 1.8rem;
