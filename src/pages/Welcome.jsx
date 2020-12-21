@@ -6,7 +6,7 @@ import HeroPage from "./heropage";
 
 const Welcome = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000, offset: 120 });
+    AOS.init({ duration: 2000, offset: 50 });
     new Rellax(".main-container", {
       // <---- Via class name
       speed: 5,
