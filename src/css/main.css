@@ -1243,6 +1243,7 @@
   width: 100%;
   height: 100vh;
   background-color: #9f2013;
+  overflow: hidden;
 }
 
 .landing-container .bg-image {
@@ -1321,14 +1322,14 @@
 
 .landing-container .footer a {
   text-decoration: none;
-  color: wheat;
+  color: white;
   font-size: 2rem;
   margin-right: 5rem;
 }
 
 .landing-container .footer .cool-link {
   display: inline-block;
-  color: wheat;
+  color: white;
   text-decoration: none;
 }
 
@@ -1355,18 +1356,18 @@
 .landing-container .arrow h3 {
   font-size: 2rem;
   font-weight: normal;
-  color: wheat;
+  color: white;
 }
 
 .landing-container .arrow .line {
-  background-color: wheat;
+  background-color: white;
   height: 0.2rem;
   width: 10rem;
 }
 
 .landing-container .arrow .triangle {
   border-top: 0.5rem solid transparent;
-  border-left: 1rem solid wheat;
+  border-left: 1rem solid white;
   border-bottom: 0.5rem solid transparent;
   margin-left: 10rem;
   margin-top: -0.6rem;
