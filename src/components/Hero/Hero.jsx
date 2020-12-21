@@ -22,9 +22,10 @@ const Hero = ({ history, url, pageName }) => {
 
   const navigateLeft = (e) => {
     localStorage.setItem("direction", JSON.stringify(true));
-
-    if (history.location.pathname === "/aboutus") {
-      history.push("/");
+    if (history.location.pathname === "/") {
+      history.push("/contactus");
+    } else if (history.location.pathname === "/aboutus") {
+      history.push("/welcome");
     } else if (history.location.pathname === "/projects") {
       history.push("/aboutus");
     } else if (history.location.pathname === "/team") {
@@ -33,15 +34,16 @@ const Hero = ({ history, url, pageName }) => {
       history.push("/team");
     } else if (history.location.pathname === "/contactus") {
       history.push("/technologies");
-    } else if (history.location.pathname === "/") {
-      history.push("/contactus");
+    } else if (history.location.pathname === "/welcome") {
+      history.push("/");
     }
   };
 
   const navigateRight = (e) => {
     localStorage.setItem("direction", JSON.stringify(false));
-
     if (history.location.pathname === "/") {
+      history.push("/welcome");
+    } else if (history.location.pathname === "/welcome") {
       history.push("/aboutus");
     } else if (history.location.pathname === "/aboutus") {
       history.push("/projects");

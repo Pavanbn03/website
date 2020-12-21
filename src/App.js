@@ -7,6 +7,7 @@ import Team from "./pages/Team";
 import Technologies from "./pages/technologies";
 import Welcome from "./pages/Welcome";
 import ContactUs from "./pages/ContactUs";
+import LandingPage from "./pages/LandingPage";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
           <Route exact path="/team" component={Team} />
           <Route exact path="/technologies" component={Technologies} />
           <Route exact path="/contactus" component={ContactUs} />
-          <Route exact path="/" component={Welcome} />
+          <Route exact path="/welcome" component={Welcome} />
+          <Route exact path="/" component={LandingPage} />
         </Switch>
       </AnimatePresence>
     </div>
