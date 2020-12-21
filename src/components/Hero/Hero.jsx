@@ -71,9 +71,6 @@ const Hero = ({ history, url, pageName }) => {
       <div className="logo">
         <Link to="/">Logo</Link>
       </div>
-      <div className="pageName-container">
-        <h1 className="pageName">{pageName}.</h1>
-      </div>
       <div
         className="circle-container-1"
         onClick={(e) => {

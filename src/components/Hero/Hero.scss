@@ -149,21 +149,6 @@
   transform: translateX(1.5rem);
 }
 
-.pageName-container {
-  width: 20%;
-  height: 5%;
-  display: inline;
-  position: absolute;
-  z-index: 5;
-  margin-top: 5%;
-  margin-left: 70%;
-
-  .pageName {
-    text-align: center;
-    letter-spacing: 0.2rem;
-  }
-}
-
 .scrollDown {
   z-index: 5;
   background-color: transparent;
@@ -269,11 +254,7 @@
       }
     }
   }
-  .pageName-container {
-    margin-left: 120rem;
-    margin-top: 4%;
-    width: 15%;
-  }
+
   .scrollDown {
     margin-top: 30%;
   }
@@ -312,14 +293,7 @@
       }
     }
   }
-  .pageName-container {
-    margin-left: 85rem;
-    margin-top: 4%;
-    width: 15%;
-    & .pageName {
-      font-size: 1.725rem;
-    }
-  }
+
   .scrollDown {
     margin-top: 43%;
   }
@@ -369,14 +343,7 @@
       }
     }
   }
-  .pageName-container {
-    margin-left: 61rem;
-    margin-top: 4%;
-    width: 15%;
-    & .pageName {
-      font-size: 1.2rem;
-    }
-  }
+
   .scrollDown {
     margin-top: 56%;
   }
@@ -431,15 +398,7 @@
       }
     }
   }
-  .pageName-container {
-    margin-left: 25rem;
-    margin-top: 5%;
-    width: 30%;
-    background-color: red;
-    .pageName {
-      font-size: 1.2rem;
-    }
-  }
+
   .scrollDown {
     margin-top: 110%;
   }
@@ -504,11 +463,7 @@
   .circle-container-1 {
     margin-top: 110%;
   }
-  .pageName-container {
-    margin-left: 26rem;
-    margin-top: 8%;
-    width: 30%;
-  }
+
   .scrollDown {
     margin-top: 130%;
   }
@@ -536,15 +491,7 @@
       }
     }
   }
-  .pageName-container {
-    margin-left: 20rem;
-    margin-top: 8%;
-    width: 35%;
 
-    & .pageName {
-      font-size: 1.2rem;
-    }
-  }
   .scrollDown {
     margin-top: 150%;
   }
