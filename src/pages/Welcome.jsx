@@ -9,7 +9,7 @@ const Welcome = () => {
     AOS.init({ duration: 2000, offset: 50 });
     new Rellax(".main-container", {
       // <---- Via class name
-      speed: 5,
+      speed: 6,
       center: false,
       wrapper: null,
       round: true,
