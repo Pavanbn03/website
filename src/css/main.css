@@ -1540,6 +1540,9 @@
   .landing-container .para p {
     font-size: 4rem;
   }
+  .landing-container .footer {
+    margin-left: -25%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
