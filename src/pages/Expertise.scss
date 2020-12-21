@@ -1,0 +1,57 @@
+.expertise-container {
+  width: 100%;
+  background-color: white;
+  padding: 2rem 5rem;
+  position: absolute;
+
+  & .title {
+    color: black;
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 7rem;
+  }
+  & .image-container {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10rem;
+
+    & .image {
+      h2 {
+        color: gray;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .expertise-container {
+    .title {
+      font-size: 3.2rem;
+    }
+  }
+}
+@media only screen and (max-width: 425px) {
+  .expertise-container {
+    .title {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .expertise-container {
+    .title {
+      font-size: 2.8rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .expertise-container {
+    .title {
+      font-size: 2.8rem;
+    }
+  }
+}

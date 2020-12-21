@@ -31,8 +31,8 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link to="projects" className="cool-link">
-                Projects
+              <Link to="expertise" className="cool-link">
+                Our Expertise
               </Link>
             </li>
             <li>

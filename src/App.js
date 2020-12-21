@@ -2,7 +2,7 @@ import "./css/main.css";
 import "./App.css";
 import { Switch, Route, useLocation } from "react-router-dom";
 import AboutUs from "./pages/AboutUs";
-import Projects from "./pages/products";
+import Expertise from "./pages/Expertise";
 import Team from "./pages/Team";
 import Technologies from "./pages/technologies";
 import Welcome from "./pages/Welcome";
@@ -18,7 +18,7 @@ function App() {
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
           <Route exact path="/aboutus" component={AboutUs} />
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/expertise" component={Expertise} />
           <Route exact path="/team" component={Team} />
           <Route exact path="/technologies" component={Technologies} />
           <Route exact path="/contactus" component={ContactUs} />

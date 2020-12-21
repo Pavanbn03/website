@@ -1,17 +1,17 @@
 .main-container {
   width: 100%;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
+
   z-index: 2;
   position: absolute;
-
+  overflow: hidden;
+  background-color: white;
   & .left {
-    background-color: white;
     h2 {
       color: black;
       font-size: 7rem;
       text-align: center;
-      margin-top: 5rem;
+      margin-top: 2.5rem;
+      padding-top: 5rem;
     }
     & .paragraph {
       display: grid;
@@ -37,7 +37,7 @@
 
           p {
             color: black;
-            font-size: 4rem;
+            font-size: 3rem;
             font-weight: bold;
           }
         }
@@ -62,16 +62,6 @@
   }
   & .right {
     background-color: #9f2013;
-
-    & .close {
-      position: sticky;
-      top: 80vh;
-      p {
-        font-size: 2rem;
-        text-align: center;
-        cursor: pointer;
-      }
-    }
   }
 }
 
@@ -118,6 +108,7 @@
       }
     }
     & .right {
+      background-color: white;
       & .close {
         p {
           font-size: 1.2rem;
@@ -200,8 +191,7 @@
             font-size: 1.4rem;
           }
           p {
-            margin-top: 0.7rem;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
           }
 
           & .quote {

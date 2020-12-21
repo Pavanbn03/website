@@ -8,7 +8,7 @@ import {
   pageVariantsRightToLeft,
 } from "../animation/animation";
 
-const Hero = ({ history, url, pageName }) => {
+const Hero = ({ history, url, title, subTitle }) => {
   const videoRef = useRef();
 
   const setPlayBack = () => {
@@ -26,10 +26,10 @@ const Hero = ({ history, url, pageName }) => {
       history.push("/contactus");
     } else if (history.location.pathname === "/aboutus") {
       history.push("/welcome");
-    } else if (history.location.pathname === "/projects") {
+    } else if (history.location.pathname === "/expertise") {
       history.push("/aboutus");
     } else if (history.location.pathname === "/team") {
-      history.push("/projects");
+      history.push("/expertise");
     } else if (history.location.pathname === "/technologies") {
       history.push("/team");
     } else if (history.location.pathname === "/contactus") {
@@ -46,8 +46,8 @@ const Hero = ({ history, url, pageName }) => {
     } else if (history.location.pathname === "/welcome") {
       history.push("/aboutus");
     } else if (history.location.pathname === "/aboutus") {
-      history.push("/projects");
-    } else if (history.location.pathname === "/projects") {
+      history.push("/expertise");
+    } else if (history.location.pathname === "/expertise") {
       history.push("/team");
     } else if (history.location.pathname === "/team") {
       history.push("/technologies");
@@ -112,7 +112,8 @@ const Hero = ({ history, url, pageName }) => {
             ></video>
           </div>
           <div className="title" data-depth="0.2">
-            <h3>interfaceone.io</h3>
+            <h3>interfaceOne.io</h3>
+            <h4>{title}</h4>
           </div>
           <div className="scrollDown">
             <div className="container">

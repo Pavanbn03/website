@@ -1,0 +1,87 @@
+.technologies-container {
+  background-color: white;
+  height: 100vh;
+  & .title {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 45%;
+    & h1 {
+      color: black;
+      font-size: 3rem;
+    }
+  }
+
+  & .image.container {
+    padding-top: 20rem;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 5rem;
+    & .tech {
+      align-items: center;
+      margin: 0rem 2rem;
+      & p {
+        color: black;
+        font-size: 2rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .technologies-container {
+    & .title {
+      & h1 {
+        font-size: 3rem;
+        margin-left: -4rem;
+      }
+    }
+    & .image.container {
+      padding: 14rem 0;
+    }
+  }
+}
+@media only screen and (max-width: 425px) {
+  .technologies-container {
+    & .title {
+      & h1 {
+        font-size: 2rem;
+        margin-left: -4rem;
+      }
+    }
+    & .image.container {
+      padding: 12rem 0;
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .technologies-container {
+    & .title {
+      & h1 {
+        font-size: 2rem;
+        margin-left: -4rem;
+      }
+    }
+    & .image.container {
+      padding: 10rem 0;
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .technologies-container {
+    & .title {
+      & h1 {
+        font-size: 2rem;
+        margin-left: -4rem;
+      }
+    }
+    & .image.container {
+      padding: 9rem 0rem;
+    }
+  }
+}

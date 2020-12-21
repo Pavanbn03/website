@@ -4,10 +4,6 @@ import Rellax from "rellax";
 import HeroPage from "./heropage";
 
 const Team = () => {
-  const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
   useEffect(() => {
     new Rellax(".main-container", {
       // <---- Via class name
@@ -77,11 +73,6 @@ const Team = () => {
                 ea porro asperiores autem vitae maiores.
               </p>
             </div>
-          </div>
-        </div>
-        <div className="right">
-          <div className="close" onClick={scrollTop}>
-            <p>close</p>
           </div>
         </div>
       </div>
