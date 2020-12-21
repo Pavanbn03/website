@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Rellax from "rellax";
 import HeroPage from "./heropage";
 
-const LandingPage = () => {
+const Welcome = () => {
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -89,4 +89,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default Welcome;

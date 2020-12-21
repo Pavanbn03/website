@@ -163,6 +163,7 @@
   transition: 0.3s transform, 0.3s -webkit-transform;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+  position: absolute;
 }
 
 .triangle-2 {
@@ -451,7 +452,7 @@
     font-size: 6rem;
   }
   .pageName-container {
-    margin-left: 65rem;
+    margin-left: 61rem;
     margin-top: 4%;
     width: 15%;
   }
@@ -510,9 +511,10 @@
     font-size: 3.5rem;
   }
   .pageName-container {
-    margin-left: 30rem;
+    margin-left: 25rem;
     margin-top: 5%;
-    width: 26%;
+    width: 30%;
+    background-color: red;
   }
   .pageName-container .pageName {
     font-size: 1.2rem;
@@ -525,29 +527,33 @@
   }
   .circle-container-2,
   .circle-container-1 {
-    margin-top: 88%;
+    margin-top: 110%;
   }
   .circle-1 {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
+  }
+  .circle-container-2 {
+    right: 1rem;
   }
   .triangle-1 {
-    left: 0.4rem;
-    top: 1.1rem;
+    left: 0.9rem;
+    top: 1.5rem;
   }
   .arrow-1 {
     width: 3.5rem;
   }
   .circle-2 {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
   }
   .arrow-2 {
     width: 3.5rem;
+    right: 2.5rem;
   }
   .triangle-2 {
-    top: 1rem;
-    right: 0.5rem;
+    top: 1.4rem;
+    right: 1.5rem;
   }
 }
 
@@ -573,7 +579,7 @@
   }
   .circle-container-2,
   .circle-container-1 {
-    margin-top: 100%;
+    margin-top: 110%;
   }
   .pageName-container {
     margin-left: 26rem;
@@ -606,7 +612,7 @@
     font-size: 3rem;
   }
   .pageName-container {
-    margin-left: 20.5rem;
+    margin-left: 20rem;
     margin-top: 8%;
     width: 35%;
   }
@@ -623,27 +629,28 @@
   .circle-container-1 {
     margin-top: 120%;
   }
-  .circle-1 {
-    width: 3rem;
-    height: 3rem;
+  .circle-container-2 {
+    right: 1.5rem;
+  }
+  .circle-1,
+  .circle-2 {
+    width: 4rem;
+    height: 4rem;
   }
   .triangle-1 {
-    left: 0.4rem;
-    top: 1.1rem;
+    left: 0.9rem;
+    top: 1.5rem;
   }
   .arrow-1 {
     width: 3.5rem;
   }
-  .circle-2 {
-    width: 3rem;
-    height: 3rem;
-  }
   .arrow-2 {
     width: 3.5rem;
+    right: 2rem;
   }
   .triangle-2 {
-    top: 1rem;
-    right: 0.5rem;
+    top: 1.4rem;
+    right: 1rem;
   }
 }
 
