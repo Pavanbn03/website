@@ -71,7 +71,13 @@ const Hero = ({ history, url, title, subTitle }) => {
       transition={pageTransition}
     >
       <div className="logo">
-        <Link to="/">Logo</Link>
+        <Link to="/">
+          <img
+            src={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/icon-io.png?alt=media&token=287c5a02-3ae6-44f7-9f96-4f92d7d846dc`}
+            width="50px"
+            className="logo-img"
+          />
+        </Link>
       </div>
       <div
         className="circle-container-1"

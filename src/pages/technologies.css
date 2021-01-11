@@ -1,0 +1,90 @@
+.technologies-container {
+  background-color: white;
+  height: 100vh;
+}
+
+.technologies-container .title {
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 45%;
+}
+
+.technologies-container .title h1 {
+  color: black;
+  font-size: 3rem;
+}
+
+.technologies-container .image.container {
+  padding-top: 20rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  gap: 5rem;
+}
+
+.technologies-container .image.container .tech {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0rem 2rem;
+}
+
+.technologies-container .image.container .tech p {
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .technologies-container .title h1 {
+    font-size: 3rem;
+    margin-left: -4rem;
+  }
+  .technologies-container .image.container {
+    padding: 14rem 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .technologies-container .title h1 {
+    font-size: 2rem;
+    margin-left: -4rem;
+  }
+  .technologies-container .image.container {
+    padding: 12rem 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .technologies-container .title h1 {
+    font-size: 2rem;
+    margin-left: -4rem;
+  }
+  .technologies-container .image.container {
+    padding: 10rem 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .technologies-container .title h1 {
+    font-size: 2rem;
+    margin-left: -4rem;
+  }
+  .technologies-container .image.container {
+    padding: 9rem 0rem;
+  }
+}
+/*# sourceMappingURL=technologies.css.map */

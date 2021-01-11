@@ -46,11 +46,18 @@
   top: 12%;
   transform: translateY(-50%);
   backface-visibility: hidden;
-
+  .logo-img {
+    transition: 0.5s;
+  }
   & a {
     text-decoration: none;
     color: white;
     font-size: 3rem;
+  }
+  &:hover {
+    .logo-img {
+      transform: scale(0.9);
+    }
   }
 }
 

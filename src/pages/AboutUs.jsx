@@ -19,7 +19,7 @@ const AboutUs = () => {
   return (
     <>
       <HeroPage
-        url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/eye.mp4?alt=media&token=3b72d16c-95ad-42dd-83bb-66e20865a748`}
+        url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/our%20service.mp4?alt=media&token=346fd2de-7a4d-4716-b6b9-19e1e0bc912d`}
         pageName="About Us"
       />
       <div className="main-container">

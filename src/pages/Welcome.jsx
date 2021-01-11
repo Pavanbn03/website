@@ -24,11 +24,10 @@ const Welcome = () => {
         pageName="Welcome"
         title="Better digital experience with InterfaceOne"
         subTitle="Innovative Minds Delivering Experiences. Global products are born here."
-        url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/Earth.mp4?alt=media&token=20b6bc1d-ec1a-4c53-807c-8a11f55421df`}
+        url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/welcome.mp4?alt=media&token=f3a5c736-a772-4e99-865d-acaacd437257`}
       />
       <div className="main-container">
         <div className="left" data-aos="fade-down">
-          <h2>Welcome</h2>
           <div className="paragraph">
             <div className="para-left" data-aos="fade-right">
               <h4>Our Services</h4>

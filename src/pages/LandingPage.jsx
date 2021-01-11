@@ -28,7 +28,11 @@ const LandingPage = () => {
         </div>
 
         <div className="logo">
-          <h1>Logo interfaceone.io</h1>
+          <h1>
+            <img
+              src={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/icon-io.png?alt=media&token=287c5a02-3ae6-44f7-9f96-4f92d7d846dc`}
+            />{" "}
+          </h1>
         </div>
         <div className="para">
           <p>We are interfaceone Co.</p>

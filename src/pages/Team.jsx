@@ -20,7 +20,7 @@ const Team = () => {
     <>
       <HeroPage
         pageName="Team"
-        url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/Bird.mp4?alt=media&token=32a65573-fae1-4813-8d6f-85614701ada4`}
+        url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/team.mp4?alt=media&token=66f56ed4-826f-42c9-8b3d-5def6829f15c`}
       />
       <div className="main-container">
         <div className="left">
