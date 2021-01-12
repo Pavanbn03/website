@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import HeroPage from "./heropage";
-
+import emailjs from "emailjs-com";
 import Rellax from "rellax";
+import Model from "../components/Model";
 
 const ContactUs = () => {
   useEffect(() => {
@@ -16,6 +17,28 @@ const ContactUs = () => {
     });
   }, []);
 
+  const [model, setModel] = useState(false);
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_8jtbl79",
+        "template_6h7ucl3",
+        e.target,
+        "user_xcuPRRZ3zqSqXgIz4SAPl"
+      )
+      .then(
+        (result) => {
+          e.target.reset();
+          setModel(true);
+          setInterval(() => setModel(false), 2000);
+        },
+        (error) => {
+          alert("Email not Sent. Please Try again");
+        }
+      );
+  };
   return (
     <>
       <HeroPage
@@ -26,28 +49,37 @@ const ContactUs = () => {
         <div className="rellax">
           <h1 className="title">Contact Us</h1>
           <div className="form-container">
-            <form className="form">
+            <form className="form" onSubmit={sendEmail}>
               <input
                 className="input"
                 type="text"
-                placeholder="Firstname"
+                placeholder="Name"
                 required
-              />
-              <input className="input" type="text" placeholder="Lastname" />
-              <input
-                className="input"
-                type="text"
-                placeholder="Company"
-                required
+                name="name"
               />
               <input
                 className="input"
                 type="email"
-                placeholder="E-Mail Address"
+                placeholder="Email"
+                name="email"
+              />
+              <input
+                className="input"
+                type="text"
+                placeholder="Subject"
                 required
+                name="subject"
+              />
+              <textarea
+                className="input message"
+                type="text"
+                placeholder="Message"
+                required
+                name="message"
               />
               <input className="button" type="submit" placeholder="Submit" />
             </form>
+            {model ? <Model /> : ""}
           </div>
         </div>
       </div>

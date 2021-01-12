@@ -1,8 +1,8 @@
 .menu-container {
   position: absolute;
   z-index: 3;
-  top: 10%;
-  left: 5%;
+  left: 95%;
+  top: 5%;
   cursor: pointer;
 
   & h6 {
@@ -54,7 +54,7 @@
   position: absolute;
   width: 100%;
   height: 100vh;
-  background: -webkit-linear-gradient(14deg, red, #f04);
+  background: -webkit-linear-gradient(3deg, #6c63ff, #d53f7e);
   z-index: 2;
   transform: translateY(-100%);
   transition: 1s cubic-bezier(0.75, 0, 0.25, 1);
@@ -124,8 +124,8 @@
 }
 @media only screen and(max-width:768px) {
   .menu-container {
-    top: 4%;
-    left: 6%;
+    top: 5%;
+    left: 90%;
     cursor: pointer;
 
     & h6 {
@@ -174,7 +174,7 @@
 @media only screen and (max-width: 425px) {
   .menu-container {
     top: 5%;
-    left: 10%;
+    left: 85%;
     cursor: pointer;
 
     & h6 {
@@ -223,7 +223,7 @@
 @media only screen and(max-width:375px) {
   .menu-container {
     top: 5%;
-    left: 10%;
+    left: 85%;
     cursor: pointer;
 
     & h6 {
@@ -272,7 +272,7 @@
 @media only screen and(max-width:320px) {
   .menu-container {
     top: 5%;
-    left: 10%;
+    left: 83%;
     cursor: pointer;
 
     & h6 {

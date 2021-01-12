@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Menu from "../components/Menu/Menu";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+
 import {
   pageTransition,
   pageVariantsLeftToRight,

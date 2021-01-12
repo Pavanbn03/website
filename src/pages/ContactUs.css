@@ -34,6 +34,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: -5rem;
+  width: 30vw;
 }
 
 .contact .form-container .form .input {
@@ -47,6 +48,13 @@
   -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
           box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   outline: none;
+  width: 100%;
+}
+
+.contact .form-container .form textarea {
+  height: 25vh;
+  font-size: 1.5rem;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .contact .form-container .form .button {

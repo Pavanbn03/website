@@ -56,6 +56,18 @@
   padding-right: 5rem;
 }
 
+.main-container .left .paragraph .para-right .partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+
 .main-container .left .paragraph .para-right h4 {
   font-size: 2.5rem;
   text-transform: capitalize;
@@ -66,6 +78,14 @@
   margin-top: 3rem;
   color: gray;
   word-spacing: 0.2rem;
+}
+
+.main-container .left .paragraph .para-right p img {
+  margin-right: 10px;
+  display: block;
+  width: 70px;
+  height: 70px;
+  padding-bottom: 10px;
 }
 
 .main-container .right {

@@ -27,17 +27,14 @@
 }
 
 .hero-container .hero .title {
-  left: 20% !important;
+  left: 15% !important;
   top: 40% !important;
 }
 
-.hero-container .hero .title h3 {
-  font-size: 10rem;
-}
-
 .hero-container .hero .title h4 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: normal;
+  text-align: center;
 }
 
 .hero-container .hero .title p {
@@ -47,8 +44,8 @@
 .logo {
   position: absolute;
   z-index: 5;
-  left: 20%;
-  top: 12%;
+  top: 6%;
+  left: 5%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   -webkit-backface-visibility: hidden;
@@ -353,7 +350,7 @@
 
 @media only screen and (max-width: 1440px) {
   .hero-container .hero .title {
-    left: 25% !important;
+    left: 15% !important;
     top: 45% !important;
   }
   .hero-container .hero h3 {
@@ -424,7 +421,7 @@
 
 @media only screen and (max-width: 768px) {
   .logo {
-    left: 45%;
+    left: 5%;
     top: 6%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -475,13 +472,17 @@
 
 @media only screen and (max-width: 425px) {
   .logo {
-    left: 45%;
+    left: 5%;
     top: 6%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
   .logo a {
     font-size: 2.5rem;
+  }
+  .logo a img {
+    width: 35px;
+    height: 35px;
   }
   .hero-container {
     height: 100vh;
@@ -541,7 +542,7 @@
 
 @media only screen and (max-width: 375px) {
   .logo {
-    left: 45%;
+    left: 5%;
     top: 6%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -578,13 +579,17 @@
 
 @media only screen and (max-width: 320px) {
   .logo {
-    left: 45%;
+    left: 5%;
     top: 6%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
   .logo a {
     font-size: 1.5rem;
+  }
+  .logo a img {
+    width: 30px;
+    height: 30px;
   }
   .hero-container {
     height: 100vh;

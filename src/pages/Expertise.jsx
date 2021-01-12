@@ -21,6 +21,7 @@ const Expertise = () => {
   return (
     <>
       <HeroPage
+        title="Experience digital transformation by leveraging technology and innovation"
         pageName="Products"
         url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/expertise.mp4?alt=media&token=b9cfc595-7071-4c8b-8db3-36755b06d3e5`}
       />

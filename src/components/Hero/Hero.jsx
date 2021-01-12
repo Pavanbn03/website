@@ -117,8 +117,7 @@ const Hero = ({ history, url, title, subTitle }) => {
               muted
             ></video>
           </div>
-          <div className="title" data-depth="0.2">
-            <h3>interfaceOne.io</h3>
+          <div className="title" data-depth="0.5">
             <h4>{title}</h4>
           </div>
           <div className="scrollDown">

@@ -23,7 +23,7 @@ const Technologies = () => {
       <HeroPage
         pageName="Technologies"
         title="Innovative Minds Delivering Experiences. Global products are born here."
-        url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/rain.mp4?alt=media&token=b362a64e-39bd-4f11-98e3-54d41446cf09`}
+        url={`https://firebasestorage.googleapis.com/v0/b/crown-db-32445.appspot.com/o/technologies%20(1).mp4?alt=media&token=8eaab758-75ec-445c-8a73-f051a553d2c4`}
       />
       <div className="technologies-container">
         <div className="title" data-aos="fade-down">

@@ -1,0 +1,44 @@
+.ModelContainer {
+  position: absolute;
+  width: 100vw;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+
+  & .model {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 50vh;
+    height: 15vh;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+
+    & h3 {
+      color: black;
+      text-align: center;
+      font-size: 2rem;
+      padding: 1rem;
+    }
+
+    & button {
+      padding: 1rem 2rem;
+      border-radius: 3rem;
+      border: none;
+      font-size: 1.5rem;
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      transition: all 0.3s;
+      outline: none;
+      margin: 0 11rem;
+      &:hover {
+        background-color: darkred;
+        color: white;
+        transform: scale(0.98);
+      }
+    }
+  }
+}
